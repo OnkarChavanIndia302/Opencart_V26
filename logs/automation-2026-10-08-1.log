@@ -1,0 +1,54 @@
+17:55:16.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:55:16.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:55:16.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:55:16.898 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:55:16.898 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:55:16.898 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:55:16.929 [main] INFO  testCases.TC_003_Data_DrivenTest - ***Starting a DDT ***
+17:55:23.541 [main] INFO  testCases.TC_003_Data_DrivenTest - ***moving to the login page  ***
+17:55:38.860 [main] INFO  testCases.TC_003_Data_DrivenTest - ***Starting a DDT ***
+17:55:51.698 [main] INFO  testCases.TC_003_Data_DrivenTest - ***finished a DDT ***
+17:55:51.698 [main] INFO  testCases.TC_003_Data_DrivenTest - ***Starting a DDT ***
+17:55:58.271 [main] INFO  testCases.TC_003_Data_DrivenTest - ***moving to the login page  ***
+17:56:24.568 [main] INFO  testCases.TC_003_Data_DrivenTest - ***finished a DDT ***
+17:56:24.568 [main] INFO  testCases.TC_003_Data_DrivenTest - ***Starting a DDT ***
+17:56:31.209 [main] INFO  testCases.TC_003_Data_DrivenTest - ***moving to the login page  ***
+17:56:54.555 [main] INFO  testCases.TC_003_Data_DrivenTest - ***finished a DDT ***
+17:56:54.559 [main] INFO  testCases.TC_003_Data_DrivenTest - ***Starting a DDT ***
+17:57:01.169 [main] INFO  testCases.TC_003_Data_DrivenTest - ***moving to the login page  ***
+17:57:24.500 [main] INFO  testCases.TC_003_Data_DrivenTest - ***finished a DDT ***
+09:26:33.632 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:26:35.978 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:26:41.961 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+09:26:41.962 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+09:26:46.077 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+09:26:46.808 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+09:26:46.811 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+09:26:53.247 [main] ERROR testCases.TC_001_RegistrationTest - test case failed...
+09:28:13.190 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:28:14.857 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:28:21.178 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+09:28:21.178 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+09:28:25.309 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+09:28:25.853 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+09:28:25.855 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+09:28:31.268 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+09:28:32.044 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+09:29:33.066 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:29:34.729 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:29:40.745 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+09:29:40.745 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+09:29:44.853 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+09:29:45.413 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+09:29:45.417 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+09:29:50.883 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+09:29:51.536 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+09:30:53.787 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:30:55.457 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:31:01.459 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+09:31:01.462 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+09:31:05.583 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+09:31:05.588 [main] ERROR testCases.TC_001_RegistrationTest - test case failed...
+09:32:20.733 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:32:22.458 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:34:09.520 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***

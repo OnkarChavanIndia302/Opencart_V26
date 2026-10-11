@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="executing login test">
+	<listeners>
+		<listener class-name="utilities.ExtentTestNGListener" />
+	</listeners>
+
+	<test name="login test">
+
+
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+
+			<!-- <class name="testCases.TC_001_RegistrationTest"/> -->
+
+			<class name="testCases.TC_002_LoginTest" />
+
+			<!--class name="testCases.TC_003_Data_DrivenTest"/> -->
+
+		</classes>
+
+	</test>
+
+</suite>
+
+<!-- these file is made by me for the execution of the tc_001 runnig by passing 
+	the parameter through the xml file -->
+<!--these parameters are validates in baseclass because the base class is 
+	for the opening browser and setup -->
+

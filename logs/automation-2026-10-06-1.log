@@ -1,0 +1,55 @@
+10:21:09.381 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+10:21:09.401 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+10:21:13.540 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+10:21:17.945 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+10:21:17.949 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+10:24:22.011 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+10:24:22.029 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+10:24:26.150 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+10:24:26.850 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+10:24:26.853 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+10:24:32.526 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+10:30:30.137 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+10:30:30.184 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+10:30:34.332 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+10:30:34.979 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+10:30:34.979 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+10:30:40.690 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+10:30:41.873 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+11:23:15.649 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+11:23:15.687 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+11:23:19.830 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+11:23:20.331 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+11:23:20.334 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+11:23:26.701 [main] ERROR testCases.TC_001_RegistrationTest - test case failed...
+11:24:04.906 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+11:24:04.923 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+11:24:09.045 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+11:24:09.590 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+11:24:09.592 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+11:24:15.019 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+11:24:15.696 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+11:41:03.766 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+11:41:03.829 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+11:41:08.009 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+11:41:08.798 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+11:41:08.798 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+11:41:14.632 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+11:41:15.759 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+11:42:27.772 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+11:42:27.774 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+11:42:31.997 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+11:42:32.733 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+11:42:32.733 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+11:42:32.867 [main] ERROR testCases.TC_001_RegistrationTest - test case failed...
+11:56:03.273 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+11:56:03.334 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+11:56:07.535 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+11:56:08.227 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+11:56:08.228 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+11:56:14.015 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+11:56:14.980 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+11:56:21.194 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+11:56:21.196 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+11:56:25.389 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+11:56:26.085 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***

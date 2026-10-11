@@ -1,0 +1,52 @@
+10:57:21.978 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+10:57:29.697 [main] ERROR testCases.TC_002_LoginTest - Failed test case
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
+  (Session info: chrome=153.0.8010.47)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '27'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [71095f8ca691fd81eb34d3af626ba2d1, findElement {value=//input[@id='input-email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40715}, goog:processID: 470, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e7300e91a20c, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71095f8ca691fd81eb34d3af626ba2d1
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:252)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:432)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:426)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.sendKeys(Unknown Source)
+	at pageObjects.LoginPage.setmail(LoginPage.java:25)
+	at testCases.TC_002_LoginTest.verify_login(TC_002_LoginTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)

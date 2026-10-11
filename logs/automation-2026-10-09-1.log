@@ -1,0 +1,58 @@
+09:34:11.290 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:37:04.406 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+09:37:04.430 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+09:37:08.539 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+09:37:09.156 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+09:37:09.160 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+09:37:14.637 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+09:37:15.420 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+09:37:21.417 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:37:23.139 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:40:21.226 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:40:28.342 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:46:03.231 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:46:10.176 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:47:02.324 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:47:09.335 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:48:56.526 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:49:15.450 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:53:03.818 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:53:14.859 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
+09:53:22.909 [main] INFO  testCases.TC_002_LoginTest - reached upto validation ...........................
+09:53:22.936 [main] ERROR testCases.TC_002_LoginTest - failed test case
+09:56:02.252 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+09:56:13.269 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
+09:56:21.335 [main] INFO  testCases.TC_002_LoginTest - reached upto validation ...........................
+09:56:21.339 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
+09:56:21.376 [main] ERROR testCases.TC_002_LoginTest - failed test case
+10:02:22.195 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+10:02:32.128 [main] ERROR testCases.TC_002_LoginTest - failed test case
+10:02:45.991 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+10:02:56.907 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
+10:03:04.965 [main] INFO  testCases.TC_002_LoginTest - reached upto validation ...........................
+10:03:04.969 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
+10:03:05.403 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
+10:03:05.403 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
+12:16:54.883 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+12:16:54.954 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+12:16:59.097 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+12:16:59.943 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+12:16:59.946 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+12:17:05.730 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+12:17:07.042 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+12:23:32.920 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+12:23:33.029 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+12:23:37.236 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+12:23:37.985 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+12:23:37.991 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+12:23:43.791 [main] INFO  testCases.TC_001_RegistrationTest - ***getting confirmation message ***
+12:23:44.822 [main] INFO  testCases.TC_001_RegistrationTest - ***test case passed succesfully...***
+12:26:37.171 [main] INFO  testCases.TC_001_RegistrationTest - ***Stats a test case***
+12:26:37.244 [main] INFO  testCases.TC_001_RegistrationTest - ***opening the home page ***
+12:26:41.421 [main] INFO  testCases.TC_001_RegistrationTest - ***clicking my acc***
+12:26:42.144 [main] INFO  testCases.TC_001_RegistrationTest - ***opening registration page ***
+12:26:42.147 [main] INFO  testCases.TC_001_RegistrationTest - ***passes the use information***
+12:26:48.850 [main] ERROR testCases.TC_001_RegistrationTest - test case failed...
+17:37:18.394 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+17:37:18.417 [main] ERROR testCases.TC_002_LoginTest - failed test case
+17:38:55.956 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***

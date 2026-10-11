@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="test case execution using the extent report...">
+
+	<listeners>
+		<listener class-name="utilities.ExtentTestNGListener"></listener>
+	</listeners>
+	
+	<test name="sign up and login test case...">
+	<parameter name="os" value="windows"/>
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC_001_RegistrationTest" />
+			
+			<!-- class name="testCases.TC_003_Data_DrivenTest"/> -->
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
