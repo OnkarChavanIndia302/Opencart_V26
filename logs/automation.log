@@ -1,39 +1,14 @@
-11:36:48.136 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-11:36:53.103 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-11:36:55.137 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-11:37:00.673 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-11:37:00.673 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-11:38:53.998 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-11:38:58.990 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-11:39:01.043 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-11:39:06.676 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-11:39:06.676 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-11:43:23.012 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-11:43:27.936 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-11:43:29.986 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-11:43:35.622 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-11:43:35.622 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-11:45:31.906 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-11:45:36.840 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-11:45:38.889 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-11:45:44.584 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-11:45:44.584 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-12:28:38.384 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-12:28:43.655 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-12:28:45.692 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-12:28:51.523 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-12:28:51.523 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-12:33:09.303 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-12:33:12.125 [main] ERROR testCases.TC_002_LoginTest - Failed test case
+2026-10-13 19:52:55 INFO  TC_002_LoginTest:16 - *** Starting Execution***
+2026-10-13 19:52:58 ERROR TC_002_LoginTest:44 - Failed test case
 org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
-  (Session info: chrome=154.0.8037.99)
+  (Session info: chrome=155.0.8059.40)
 Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '27'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7eb70dc640294e56523cde4c2a4f5580, findElement {value=//input[@id='input-email'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.99, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\onkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59874}, goog:processID: 12512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59874/devtoo..., se:cdpVersion: 154.0.8037.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7eb70dc640294e56523cde4c2a4f5580
+Command: [1d3ab94ac20985ac274b3ad53ee43011, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\onkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53662}, goog:processID: 8156, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53662/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d3ab94ac20985ac274b3ad53ee43011
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -47,11 +22,11 @@ Session ID: 7eb70dc640294e56523cde4c2a4f5580
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:426)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.sendKeys(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
 	at pageObjects.LoginPage.setmail(LoginPage.java:25)
 	at testCases.TC_002_LoginTest.verify_login(TC_002_LoginTest.java:24)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -60,7 +35,7 @@ Session ID: 7eb70dc640294e56523cde4c2a4f5580
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -73,10 +48,11 @@ Session ID: 7eb70dc640294e56523cde4c2a4f5580
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 	at org.testng.TestNG.runSuites(TestNG.java:1112)
 	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2026-10-13 19:54:43 INFO  TC_004_ShopingCart_Page:13 - trying ot open the home page
+2026-10-13 19:54:44 INFO  TC_004_ShopingCart_Page:17 - tyring to open the cart page 
+2026-10-13 19:54:44 INFO  TC_004_ShopingCart_Page:19 - validating is open or not 
+2026-10-13 19:54:44 INFO  TC_004_ShopingCart_Page:33 - page opened succesfully and trying to close the page 
+2026-10-13 19:54:44 INFO  TC_004_ShopingCart_Page:35 - bact to the home page

@@ -1,21 +1,14 @@
-23:02:45.489 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-23:02:50.397 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-23:02:52.475 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-23:02:58.043 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-23:02:58.043 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-00:51:50.202 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-00:51:57.600 [main] ERROR testCases.TC_002_LoginTest - failed test case
-00:57:50.908 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-00:57:58.287 [main] ERROR testCases.TC_002_LoginTest - Failed test case
+00:58:32.871 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+00:58:40.249 [main] ERROR testCases.TC_002_LoginTest - Failed test case
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
   (Session info: chrome=153.0.8010.47)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '27'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2294052dbc3028404fda5e26469ad1b3, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40771}, goog:processID: 457, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e7300e91a20c, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2294052dbc3028404fda5e26469ad1b3
+Command: [395eafa936ed4625162c0761655a8c6f, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45821}, goog:processID: 670, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e7300e91a20c, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 395eafa936ed4625162c0761655a8c6f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)

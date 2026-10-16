@@ -1,24 +1,14 @@
-10:40:19.958 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-10:40:25.577 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-10:40:27.702 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-10:40:33.632 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-10:40:33.632 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-10:44:11.725 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-10:44:17.112 [main] INFO  testCases.TC_002_LoginTest - reached upto the my page 
-10:44:19.202 [main] INFO  testCases.TC_002_LoginTest - validation is passed ...
-10:44:24.869 [main] INFO  testCases.TC_002_LoginTest - logout reached and trying to logout...
-10:44:24.869 [main] INFO  testCases.TC_002_LoginTest - ***TC_002_login_Finished Execution***
-10:50:20.743 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
-10:50:28.246 [main] ERROR testCases.TC_002_LoginTest - Failed test case
+10:57:21.978 [main] INFO  testCases.TC_002_LoginTest - *** Starting Execution***
+10:57:29.697 [main] ERROR testCases.TC_002_LoginTest - Failed test case
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
   (Session info: chrome=153.0.8010.47)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '27'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [74a30cd8dee78e73a47ee3f1a0b88dcf, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33919}, goog:processID: 218, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e7300e91a20c, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74a30cd8dee78e73a47ee3f1a0b88dcf
+Command: [71095f8ca691fd81eb34d3af626ba2d1, findElement {value=//input[@id='input-email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40715}, goog:processID: 470, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e7300e91a20c, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71095f8ca691fd81eb34d3af626ba2d1
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)

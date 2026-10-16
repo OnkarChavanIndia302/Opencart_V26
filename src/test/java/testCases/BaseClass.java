@@ -76,7 +76,7 @@ public class BaseClass {
 			default:
 				throw new IllegalArgumentException("Invalid browser: " + br);
 				
-			}
+			}//http://10.132.1.234:4444/ui/
 
 			driver = new RemoteWebDriver(new URL("http://localhost:4444"),capability);    //----------> use these web while run xml with docker 
 		}

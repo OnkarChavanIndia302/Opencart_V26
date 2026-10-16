@@ -19,6 +19,9 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//a[normalize-space()='Login']")
 	WebElement login_page ;
 	
+	@FindBy(xpath = "//span[normalize-space()='Shopping Cart']")
+	WebElement shoping_link ;
+	
 
 	public void clk_myaccount() {
 		lnk_myaccount.click();
@@ -31,4 +34,9 @@ public class HomePage extends BasePage {
 	public void click_login_link() {
 		login_page.click();
 	}
+	
+	public void click_shoping_cart() {
+		shoping_link.click();
+	}
+	
 }

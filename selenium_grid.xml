@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="testing with selenium grid ">
-	<listeners>
-		<listener class-name="utilities.ExtentTestNGListener"></listener>
-	</listeners>
 
-	<test name="without grid">
-		<parameter name="os" value="windows" />
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="testCases.TC_002_LoginTest" />
-		</classes>
-		
-	</test> <!-- Test -->	
-	
-	<test name="without grid witout docker ">
-		<parameter name="os" value="linux" />
-		<parameter name="browser" value="edge" />
-		<classes>
-			<class name="testCases.TC_002_LoginTest" />
-		</classes>
-		
-	</test> <!-- Test -->	
-</suite> <!-- Suite -->
-<!--use these url to run the selenium grid without docker appurl=http://localhost/opencart/ -->
+<suite name="using selenium grid">
+
+    <listeners>
+        <listener class-name="utilities.ExtentTestNGListener"/>
+    </listeners>
+
+    <test name="login test">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testCases.TC_002_LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
+
