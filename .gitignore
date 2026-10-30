@@ -1,0 +1,17 @@
+# Logs
+*.log
+*.log.gz
+logs/
+
+# Maven generated files
+target/
+
+# Test reports
+test-output/
+reports/
+screenshots/
+
+# Eclipse generated files
+.classpath
+.project
+.settings/

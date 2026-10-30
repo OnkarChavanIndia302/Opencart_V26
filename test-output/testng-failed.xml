@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [executing login test]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="utilities.ExtentTestNGListener"/>
-  </listeners>
-  <test thread-count="5" name="login test(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="Chrome"/>
+<suite name="Failed suite [testing using the selenium grid]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="using docker(failed)">
+    <parameter name="br" value="chrome"/>
+    <parameter name="os" value="linux"/>
     <classes>
-      <class name="testCases.TC_004_ShopingCart_Page">
+      <class name="testCases.TC_002_LoginTest">
         <methods>
           <include name="setup"/>
           <include name="closee"/>
-          <include name="verify_test"/>
+          <include name="verify_login"/>
         </methods>
-      </class> <!-- testCases.TC_004_ShopingCart_Page -->
+      </class> <!-- testCases.TC_002_LoginTest -->
     </classes>
-  </test> <!-- login test(failed) -->
-</suite> <!-- Failed suite [executing login test] -->
+  </test> <!-- using docker(failed) -->
+</suite> <!-- Failed suite [testing using the selenium grid] -->

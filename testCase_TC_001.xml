@@ -21,7 +21,9 @@
 
 			<!-- class name="testCases.TC_003_Data_DrivenTest"/> --> 
 			
-			<class name="testCases.TC_004_ShopingCart_Page"/>
+			<!-- class name="testCases.TC_004_ShopingCart_Page"/>-->
+			
+			<class name="testCases.TC_005_Wish_List"/>
 
 		</classes>
 

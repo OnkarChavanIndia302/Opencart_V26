@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testing using the selenium grid">
+    <test name="using docker">
+        <parameter name="br" value="chrome" />
+        <parameter name="os" value="linux" />
+        <classes>
+            <class name="testCases.TC_002_LoginTest" />
+        </classes>
+    </test>
+</suite>

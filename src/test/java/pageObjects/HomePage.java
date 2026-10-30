@@ -22,6 +22,10 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//span[normalize-space()='Shopping Cart']")
 	WebElement shoping_link ;
 	
+	@FindBy(xpath = "//span[normalize-space()='Wish List (0)']")
+	WebElement wish_list ;
+	
+	
 
 	public void clk_myaccount() {
 		lnk_myaccount.click();
@@ -39,4 +43,8 @@ public class HomePage extends BasePage {
 		shoping_link.click();
 	}
 	
+	public void click_wish_list() {
+		wish_list.click();
+		
+	}
 }
